@@ -10,6 +10,11 @@ public class Main {
 //        panjang = 6;
 //        lebar = 4;
 
+        int a = 10;
+        int b = 10;
+        int hasil = tambah(a,b);
+        System.out.println(hasil);
+
         Scanner userIput = new Scanner(System.in);
 
         System.out.print("panjang = ");
@@ -59,4 +64,12 @@ public class Main {
             System.out.print("\n");
         }
     }
+
+    private static int tambah(int a, int b){
+        int hasil = a + b;
+
+        return hasil;
+
+    }
+
 }
